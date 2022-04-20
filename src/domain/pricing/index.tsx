@@ -7,6 +7,8 @@ import TableViewHeader from "../../components/organisms/custom-table-header"
 import PricingTable from "./pricing-table"
 import BulkEditorContainer from "./bulk-editor"
 
+import { MockVariants } from "./bulk-editor/mock.variants"
+
 const PricingIndex: React.FC<RouteComponentProps> = () => {
   const [show, setShow] = useState(false) // TODO: remove
 
@@ -28,7 +30,7 @@ const PricingIndex: React.FC<RouteComponentProps> = () => {
           <PricingTable />
         </BodyCard>
       </div>
-      {show && <BulkEditorContainer />}
+      {show && <BulkEditorContainer variants={MockVariants} />}
     </div>
   )
 }
