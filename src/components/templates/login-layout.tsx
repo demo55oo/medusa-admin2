@@ -12,10 +12,10 @@ const LoginLayout = ({ children }) => {
         >
           {children}
           <div className="text-grey-0 inter-base-regular pb-12">
-            © Medusa Commerce <span>&#183;</span>{" "}
+            © Carza Commerce 2022<span>&#183;</span>{" "}
             <a
               style={{ color: "inherit", textDecoration: "none" }}
-              href="mailto:hello@medusajs.com"
+              href="mailto:dzulhelmynazri@gmail.com"
             >
               Contact
             </a>
